@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var fakeTwitter: UILabel!
+    @IBOutlet weak var yuhTwitter: UITextField!
+
     override func viewDidLoad() {
         super.viewDidLoad()
        print("This is a print statement - testing testing!")
